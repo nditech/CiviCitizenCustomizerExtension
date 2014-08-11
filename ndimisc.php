@@ -3,6 +3,7 @@
 require_once 'ndimisc.civix.php';
 
 function ndimisc_civicrm_alterContent( &$content, $context, $tplName, &$object ) {
+die("Testing extension modification");
 /*** Replaces old template overrides ***/
   switch($tplName) {
     case "CRM/Activity/Form/Activity.tpl":
